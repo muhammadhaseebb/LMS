@@ -1,8 +1,11 @@
-var mongoose=require('mongoose');
-var headSchema= new mongoose.Schema({
-name:{
-    type:String,
-    required:true
-}
+var mongoose = require('mongoose');
+
+var schema = mongoose.Schema;
+
+var headSchema = new schema({
+	name: {
+		type: String,
+		required: true,
+	},
 });
-module.exports=mongoose.model('Head',headSchema);
+module.exports = mongoose.model('Head', headSchema);
