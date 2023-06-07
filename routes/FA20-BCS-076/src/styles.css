@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  display: grid;
+  grid-gap: 5em 0;
+  gap: 5em;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+}
+.parentDiv-01 {
+  height: 100em;
+  width: 15em;
+  background-color: #fbfaf2;
+  border-radius: 2em;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.NavHolder {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.parentDiv-02 {
+  background-color: #fbfaf2;
+  border-radius: 1em;
+  width: 71.5em;
+  height: 5em;
+  grid-column: 2;
+  grid-row: 1;
+  gap: 5em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.parentDiv-03 {
+  padding: 1em;
+  width: 70em;
+  height: 88.25em;
+  border-radius: 2em;
+  grid-column: 2;
+  grid-row: 2 / span 2;
+  background-color: #fbfaf2;
+}
+.Picture {
+  border-radius: 50em;
+  justify-content: center;
+  padding: 0.5em;
+}
+.picture {
+  height: 4em;
+  width: 4em;
+  border-radius: 50em;
+}
+.Name {
+  color: black;
+  height: 10em;
+  width: 10em;
+}
+.username {
+  font-weight: bold;
+  font-size-adjust: inherit;
+}
+.LMS {
+  color: #000000;
+  font-weight: bold;
+  font-size: x-large;
+  font-size-adjust: inherit;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table {
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+}
+.outerCap {
+  font-weight: bold;
+  font-size: larger;
+}
+.innerCap {
+  font-weight: bold;
+  font-size: larger;
+}
+.capHolder {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 0.5em;
+  height: 2em;
+  width: 67.5em;
+  padding: 0.25em;
+  align-items: center;
+}
+button {
+  font-size: medium;
+  margin: 1em;
+  padding: 0.5em;
+  border: unset;
+  background-color: #fff;
+  border-radius: 0.5em;
+  width: 10em;
+  max-width: 15em;
+}
+button:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
